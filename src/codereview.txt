@@ -1,0 +1,10 @@
+- przenieść logikę z metod do odrębnych klas
+- utworzyć klasę ProductFormatter i przenieść do niej metody:
+    - replaceCharFromDesc
+    - formatDesc
+- w metodzie FormatDesc rozszerzyć opcje zwracanych opisów
+- utworzyć klasę ProductManager i przenieść do niej metody
+    -decrementCounter
+    -incrementCounter
+    -changePriceTo
+- w klasie Product zadeklarować zmienne prywatne productFormatter i productManager i zainicjować w konstruktorze.
